@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Silva - Desenvolvedor Full Stack</title>
+    <meta name="description" content="Portfólio profissional de Camile Souza, Desenvolvedora Full Stack especializado em React, Node.js e soluções web modernas.">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Dev<span>Portfolio</span></div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#experience">Experiência</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <button class="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="w-5 h-5 sun-icon" fill="currentColor" viewBox="0 0 20 20" style="display: none;">
+                        <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" />
+                    </svg>
+                    <svg class="w-5 h-5 moon-icon" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+                    </svg>
+                </button>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <svg class="w-6 h-6 menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <svg class="w-6 h-6 close-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="display: none;">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+        <div class="container mobile-menu">
+            <a href="#home">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#projects">Projetos</a>
+            <a href="#experience">Experiência</a>
+            <a href="#contact">Contato</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">Camile Souza</h1>
+                        <h2 class="hero-subtitle">Desenvolvedora Full Stack</h2>
+                        <p class="hero-description">Transformo ideias em código, criando soluções digitais que impactam pessoas e negócios.</p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary">Ver Portfólio</button>
+                            <button class="btn btn-secondary">Contato</button>
+                            <button class="btn btn-secondary">Currículo (PDF)</button>
+                        </div>
+                    </div>
+                    <div class="hero-image-container">
+                        <img src="Imagens/logo.png" alt="Camile Souza - Desenvolvedora Full Stack" class="hero-image">
+                        <div class="hero-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section" style="background-color: var(--card-bg);">
+            <div class="container">
+                <h2 class="section-title">Sobre <span>Mim</span></h2>
+                <div class="about-container">
+                    <div class="about-text">
+                        <p>Sou um desenvolvedor apaixonado por tecnologia, com mais de 4 anos de experiência criando soluções web modernas e escaláveis. 
+                        Nascido em São Paulo, sempre fui fascinado pela capacidade da tecnologia de transformar ideias em realidade.</p>
+                        <p>Minha especialidade está em desenvolvimento full stack, com foco em criar experiências de usuário excepcionais 
+                        combinadas com arquiteturas backend robustas e escaláveis.</p>
+                        <p>Fora do trabalho, contribuo com projetos open source, participo de hackathons e estou sempre explorando 
+                        novas tecnologias, especialmente em automação e inteligência artificial.</p>
+                    </div>
+                    <div class="about-passions">
+                        <h3>Minhas Paixões</h3>
+                        <ul class="passion-list">
+                            <li class="passion-item">
+                                <div class="passion-bullet"></div>
+                                <span>Desenvolvimento de aplicações web modernas</span>
+                            </li>
+                            <li class="passion-item">
+                                <div class="passion-bullet"></div>
+                                <span>Contribuição para projetos open source</span>
+                            </li>
+                            <li class="passion-item">
+                                <div class="passion-bullet"></div>
+                                <span>Automação de processos e tarefas</span>
+                            </li>
+                            <li class="passion-item">
+                                <div class="passion-bullet"></div>
+                                <span>Exploração de IA e machine learning</span>
+                            </li>
+                            <li class="passion-item">
+                                <div class="passion-bullet"></div>
+                                <span>Participação em comunidades tech</span>
+                            </li>
+                            <li class="passion-item">
+                                <div class="passion-bullet"></div>
+                                <span>Mentoria para desenvolvedores iniciantes</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Minhas <span>Habilidades</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">CSS3</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">React</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Tailwind CSS</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Node.js</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Django</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">REST APIs</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">GraphQL</span>
+                                    <span class="skill-percentage">65%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Outros</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Git</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Docker</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">AWS</span>
+                                    <span class="skill-percentage">65%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">PostgreSQL</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">MongoDB</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section" style="background-color: var(--card-bg);">
+            <div class="container">
+                <h2 class="section-title">Meus <span>Projetos</span></h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400/3b82f6/ffffff?text=Project+1" alt="Projeto 1">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="#" class="project-link" target="_blank">Demo</a>
+                                    <a href="#" class="project-link" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Plataforma de E-commerce</h3>
+                            <p class="project-description">Sistema completo de e-commerce com carrinho de compras, pagamento integrado e painel administrativo. Resolvi o problema de gestão de produtos e pedidos para pequenas empresas.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Stripe</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400/2563eb/ffffff?text=Project+2" alt="Projeto 2">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="#" class="project-link" target="_blank">Demo</a>
+                                    <a href="#" class="project-link" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Aplicativo de Gerenciamento de Tarefas</h3>
+                            <p class="project-description">Aplicativo para gerenciamento de tarefas com categorias, prioridades e lembretes. Solução para produtividade pessoal e profissional.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">PWA</span>
+                                <span class="tech-tag">Material UI</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400/1d4ed8/ffffff?text=Project+3" alt="Projeto 3">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="#" class="project-link" target="_blank">Demo</a>
+                                    <a href="#" class="project-link" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Sistema de Análise de Dados</h3>
+                            <p class="project-description">Ferramenta para análise de dados com visualizações interativas e exportação de relatórios. Ajuda empresas a tomar decisões baseadas em dados.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Django</span>
+                                <span class="tech-tag">Chart.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400/60a5fa/ffffff?text=Project+4" alt="Projeto 4">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="#" class="project-link" target="_blank">Demo</a>
+                                    <a href="#" class="project-link" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">API RESTful para Gestão de Clientes</h3>
+                            <p class="project-description">API completa para gestão de clientes com autenticação JWT, validação de dados e documentação Swagger. Solução para integração com sistemas existentes.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">JWT</span>
+                                <span class="tech-tag">Swagger</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Experiência & <span>Formação</span></h2>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Desenvolvedor Full Stack</h3>
+                            <p class="experience-company">Tech Solutions Inc.</p>
+                            <span class="experience-period">2022 - Presente</span>
+                        </div>
+                        <p class="experience-description">Desenvolvimento de aplicações web escaláveis usando React e Node.js. Liderança técnica em projetos de transformação digital.</p>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Desenvolvedor Frontend</h3>
+                            <p class="experience-company">Startup XYZ</p>
+                            <span class="experience-period">2020 - 2022</span>
+                        </div>
+                        <p class="experience-description">Criação de interfaces responsivas e otimizadas. Implementação de design systems e componentes reutilizáveis.</p>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Bootcamp Full Stack</h3>
+                            <p class="experience-company">DevMaster Academy</p>
+                            <span class="experience-period">2019 - 2020</span>
+                        </div>
+                        <p class="experience-description">Formação intensiva em desenvolvimento web moderno, com foco em JavaScript, React, Node.js e bancos de dados.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section" style="background-color: var(--card-bg);">
+            <div class="container">
+                <h2 class="section-title"><span>Contato</span></h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Vamos Trabalhar Juntos</h3>
+                        <p>Estou sempre aberto a novos desafios e oportunidades. Se você tem um projeto interessante 
+                        ou quer discutir ideias, sinta-se à vontade para entrar em contato.</p>
+                        
+                        <ul class="contact-details">
+                            <li class="contact-item">
+                                <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                                <span>joao.silva@email.com</span>
+                            </li>
+                            <li class="contact-item">
+                                <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                <span>+55 (11) 98765-4321</span>
+                            </li>
+                            <li class="contact-item">
+                                <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                                <span>São Paulo, Brasil</span>
+                            </li>
+                        </ul>
+                        
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="GitHub">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Medium">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2.25a3.375 3.375 0 013.375 3.375v1.5c0 .621-.504 1.125-1.125 1.125H5.625A1.125 1.125 0 014.5 6.75v-1.5A3.375 3.375 0 017.875 1.875h4.25zm0 12.75h4.5a1.125 1.125 0 001.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H10.5m0 0a3.375 3.375 0 00-3.375 3.375v1.5c0 .621.504 1.125 1.125 1.125h4.5z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Envie uma Mensagem</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Nome</label>
+                                <input type="text" id="name" class="form-input" placeholder="Seu nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" class="form-input" placeholder="seu.email@exemplo.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Mensagem</label>
+                                <textarea id="message" class="form-textarea" placeholder="Sua mensagem..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; <span id="current-year">2023</span> João Silva. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Política de Privacidade</a>
+                <a href="#" class="footer-link">Termos de Serviço</a>
+                <a href="#" class="footer-link">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
